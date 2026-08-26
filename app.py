@@ -717,7 +717,7 @@ with col_main:
                     st.write(", ".join(clf_features))
 
         with tab2:
-            st.markdown("<p style='color:#00E5FF; font-family:\"JetBrains Mono\"; font-size:1.1rem; margin-top:1rem;'>XGBOOST REGRESSOR</p>", unsafe_allow_html=True)
+            st.markdown("<p style='color:#00E5FF; font-family:\"JetBrains Mono\"; font-size:1.1rem; margin-top:1rem;'>XGBOOST (XGB) REGRESSOR</p>", unsafe_allow_html=True)
             
             reg_metrics = pd.DataFrame({
                 "Validation Phase": [
@@ -775,6 +775,7 @@ with col_main:
         st.markdown("""
         <div style="background: rgba(0, 229, 255, 0.05); padding: 1.5rem; border-left: 4px solid #00E5FF; border-radius: 8px; margin-bottom: 1.5rem;">
             <p style="margin:0; color:#FFFFFF;"><b>IPRED-E 1.0 Webtool</b> | D. Kumar, A. J. Martin | Version 1.0 (2026).</p>
+            <p style="margin:0; color:#94A3B8; margin-top: 0.5rem;"><b>Webtool URL:</b> <i>https://ipred-e-1-clf-reg-screening.streamlit.app/</i></p>
         </div>
         """, unsafe_allow_html=True)
 
