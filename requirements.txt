@@ -10,3 +10,6 @@ joblib
 graphviz
 plotly
 matplotlib==3.8.4
+libxrender1
+libxext6
+libsm6
