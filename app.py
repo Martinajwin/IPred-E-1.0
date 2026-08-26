@@ -641,10 +641,10 @@ with col_main:
             
             dot.node("In", "SMILES Input", fillcolor="#0A0E17", fontcolor="#00E5FF", color="#00E5FF")
             dot.node("Desc", "Mordred Descriptors", fillcolor="#0A0E17", fontcolor="#FFFFFF", color="rgba(255,255,255,0.2)")
-            dot.node("CLFAD", "SVM AD Check (k-NN)", fillcolor="#0A0E17", fontcolor="#FFB300", color="#FFB300")
+            dot.node("CLFAD", "SVM AD Check (k-NN based)", fillcolor="#0A0E17", fontcolor="#FFB300", color="#FFB300")
             dot.node("SVM", "SVM Classification", fillcolor="#0A0E17", fontcolor="#FFFFFF", color="rgba(255,255,255,0.2)")
             dot.node("Inact", "Inactive\n(Stop)", fillcolor="#0A0E17", fontcolor="#FF003C", color="#FF003C")
-            dot.node("REGAD", "XGBoost AD Check (k-NN)", fillcolor="#0A0E17", fontcolor="#FFB300", color="#FFB300")
+            dot.node("REGAD", "XGBoost AD Check (k-NN based)", fillcolor="#0A0E17", fontcolor="#FFB300", color="#FFB300")
             dot.node("XGB", "XGBoost Regression", fillcolor="#0A0E17", fontcolor="#FFFFFF", color="rgba(255,255,255,0.2)")
             dot.node("Out", "Active Hit (with pIC50)", fillcolor="#0A0E17", fontcolor="#00E5FF", color="#00E5FF")
             
