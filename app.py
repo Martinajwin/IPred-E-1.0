@@ -633,7 +633,7 @@ with col_main:
             """, unsafe_allow_html=True)
 
         with col_b:
-            st.markdown("<p style='color:#94A3B8; font-weight:600; text-transform:uppercase;'>Flowchart Pipeline Matrix</p>", unsafe_allow_html=True)
+            st.markdown("<p style='color:#94A3B8; font-weight:600; text-transform:uppercase;'>Flowchart Pipeline</p>", unsafe_allow_html=True)
             dot = Digraph("SequentialFlow", engine="dot")
             dot.attr(rankdir="TB", splines="ortho", nodesep="0.6", ranksep="0.7", bgcolor="transparent")
             dot.attr("node", shape="rect", style="rounded,filled", fontsize="13", fontname="Inter", color="white", penwidth="1")
