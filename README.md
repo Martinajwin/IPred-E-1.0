@@ -15,7 +15,7 @@ IPRED-E 1.0 is a Streamlit web application implementing a rigorous, sequential m
 ### Access the Web Tool
 You can access and use the IPRED-E 1.0 virtual screening pipeline directly through your web browser without any installation:
 
-🔗 **[Launch IPRED-E 1.0 Web Tool Here]([https://ipred-e-1-clf-reg-screening.streamlit.app/])**
+🔗 **[Launch IPRED-E 1.0 Web Tool Here](https://ipred-e-1-clf-reg-screening.streamlit.app/)**
 
 ---
 
